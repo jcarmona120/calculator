@@ -1,4 +1,4 @@
-var App = function() {
+var calculator = function() {
     var total,
         firstN,
         secondN;
@@ -28,7 +28,5 @@ var App = function() {
     return publicAPI;
     
 }
-
-var calculator = App();
 
 module.exports = calculator;
