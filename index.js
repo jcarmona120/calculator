@@ -5,19 +5,23 @@ var App = function() {
 
     var publicAPI = {
         add: function(firstN, secondN) {
-            console.log(total = firstN + secondN)
+            total = firstN + secondN
+            return total;
         },
         subtract: function(firstN, secondN) {
-            console.log(total = firstN - secondN)
+            total = firstN - secondN
+            return total;
         },
         divide: function(firstN, secondN) {
-            console.log(total = firstN / secondN)
+            total = firstN / secondN;
+            return total;
         },
         multiply: function(firstN, secondN) {
-            console.log(total = firstN * secondN)
+            total = firstN * secondN;
+            return total;
         },
         total: function() {
-            console.log(total)
+            return total;
         }
     }
 
@@ -26,8 +30,5 @@ var App = function() {
 }
 
 var calculator = App();
-calculator.add(5,2);
-calculator.subtract(5,2);
-calculator.divide(5,2);
-calculator.multiply(5,2)
-calculator.total();
+
+module.exports = calculator;
