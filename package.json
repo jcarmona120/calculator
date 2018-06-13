@@ -1,7 +1,7 @@
 {
-  "name": "jstesting",
+  "name": "lunch-calculator",
   "version": "1.0.0",
-  "description": "Practicing a few things",
+  "description": "Building a calculator with module pattern and testing functions with mocha",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
