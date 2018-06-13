@@ -3,7 +3,7 @@ var calculator = function() {
         firstN,
         secondN;
 
-    var publicAPI = {
+    var calcAPI = {
         add: function(firstN, secondN) {
             total = firstN + secondN
             return total;
@@ -25,8 +25,8 @@ var calculator = function() {
         }
     }
 
-    return publicAPI;
+    return calcAPI;
     
 }
 
-module.exports = calculator;
+module.exports = calculator();

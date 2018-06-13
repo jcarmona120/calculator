@@ -1,7 +1,8 @@
 var calc = require('../index.js')
+var assert = require('assert')
 
 console.log(calc)
-var assert = require('assert')
+
 describe('calculator', function() {
     it('should add two numbers', function(done) {
         var total = calc.add(5,2);
