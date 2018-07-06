@@ -1,4 +1,4 @@
-let calculator = function () {
+let calculator = _ => {
     let total,
         firstN,
         secondN;
@@ -25,7 +25,6 @@ let calculator = function () {
         }
     };
     return calcAPI;
-
-}
+};
 
 module.exports = calculator();
